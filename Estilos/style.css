@@ -2,8 +2,8 @@
 
 /*
     Paleta de cores
-    Verde: #49a09d
-    Lilás: #5f2c82
+    Marrom: #B77940
+    Azul: #AAC3B5    
 */
 
 * {
@@ -14,7 +14,7 @@
 }
 
 body, html {
-    background-color: #b27bd6;
+    background-color: #B77940;
     height: 100vh;
     width: 100vw;
 }
@@ -36,7 +36,9 @@ section#login {
     width: 250px;
     height: 500px;
     border-radius: 20px;
-    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.5)
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.5);
+    transition: width .3s, height .3s;
+    transition-timing-function: ease;
 }
 
 section#login > div#image {
