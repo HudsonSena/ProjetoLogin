@@ -8,7 +8,12 @@
  Desktop: 992px até 1200px
  Grandes Telas: acima de 1200px
  */
-
+/*@media screen and (max-width: 767px) {
+    section#logtin {
+        width: 250px;
+        height: 70vh;
+    }    
+}*/
 @media screen and (min-width: 768px) and (max-width: 992px){
     
     body {
