@@ -33,10 +33,11 @@ section#login {
     overflow: hidden;
 
     background-color: white;
-    width: 250px;
-    height: 70vh;
+    width: 252px;
+    height: 500px;
     border-radius: 20px;
     box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.5);
+
     transition: width .3s, height .3s;
     transition-timing-function: ease;
 }
@@ -51,4 +52,13 @@ section#login > div#image {
 section#login > div#form {
     display: block;
     padding: 10px;
+}
+
+div#form > h1 {
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+div#form > p {
+    font-size: 0.8em;
 }
