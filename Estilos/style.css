@@ -3,7 +3,8 @@
 /*
     Paleta de cores
     Marrom: #B77940
-    Azul: #AAC3B5    
+    Azul: #4E8586  
+    Azul Claro: #AAC3B5  
 */
 
 * {
@@ -63,20 +64,34 @@ div#form > p {
     font-size: 0.8em;
 }
 
+form > div.campo {
+    background-color: #65969B;
+    display: block;
+    width: 100%;
+    height: 40px;
+    border-radius: 5px;
+    margin: 5px 0px;
+}
+
+div.campo > label {
+    display: none;
+}
+
 form > input[type=submit] {
     display: block;
     font-size: 1em;
     width: 100%;
     height: 40px;
-    background-color: #AAC3B5;
-    color: white;
-    border: none;
+    background-color: white;
+    color: #4E8586;
+    border: 1px solid #4E8586;
     border-radius: 5px;
     cursor: pointer;
 }
 
-form > input[type=sumit]:hover {
-    background-color: #70c494;
+form > input[type=submit]:hover {
+    background-color: #4E8586;
+    color: white;
 }
 
 form > a.botao {
@@ -84,4 +99,21 @@ form > a.botao {
     text-align: center;
     font-size: 1em;
     width: 100%;
+    height: 40px;
+    padding-top: 5px;
+    margin-top: 5px;
+    background-color: white;
+    color: #4E8586;
+    border: 1px solid #4E8586;
+    border-radius: 5px;
+    text-decoration: none;
+}
+
+form > a.botao:hover {
+    background-color: #4E8586;
+    color: white;
+}
+
+form > a.botao > i {
+    font-size: .8em;
 }
