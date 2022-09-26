@@ -84,6 +84,7 @@ div.campo > i {
     scale: 1.2;
     width: 40px;
     padding: 5px;
+    
     transform: translateY(-7px) translateX(5px);
 }
 
@@ -95,6 +96,7 @@ div.campo > input {
     border: 0px;
     border-radius: 8px;
     padding: 2px;
+
     transform: translateY(-13px) translateX(1px);
 }
 
